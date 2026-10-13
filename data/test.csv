@@ -1,0 +1,2 @@
+inst_zone,ip,host_name,type,vm.file,vm.local,sys.test
+test_2,127.0.0.2,test2,test,234,234,234

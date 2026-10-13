@@ -1,0 +1,33 @@
+fieldMappings:
+  - targetField: instZone
+    headerKeys:
+      - "数据中心"
+      - "zone"
+      - "inst_zone"
+      - "INST_ZONE"
+    required: true
+    description: "数据中心"
+
+  - targetField: ip
+    headerKeys:
+      - "IP"
+      - "IP地址"
+      - "主机IP"
+      - "server_ip"
+    required: true
+    description: "IP地址"
+
+  - targetField: hostName
+    headerKeys:
+      - "主机名"
+      - "host"
+      - "HOSTNAME"
+    description: "主机名"
+
+  - targetField: type
+    headerKeys:
+      - "类型"
+      - "TYPE"
+      - "设备类型"
+    defaultValue: "unknown"
+    description: "设备类型"
